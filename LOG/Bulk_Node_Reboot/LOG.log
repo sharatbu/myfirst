@@ -1,9 +1,0 @@
-2019-12-12 11:54:49,900 INFO Bulk_Node_Reboot
-2019-12-12 11:54:49,902 DEBUG AirUnity
-2019-12-12 11:54:49,905 INFO AirUnity
-2019-12-12 11:54:49,905 DEBUG http://10.23.1.130/WS/16.5/Inventory.asmx
-2019-12-12 11:54:49,948 DEBUG Successfully connected to DB 10.23.1.131\MSSQLDB2
-2019-12-12 11:54:49,963 DEBUG Posting the request
-2019-12-12 11:54:49,969 DEBUG Starting new HTTP connection (1): 10.23.1.130:80
-2019-12-12 11:55:29,340 DEBUG http://10.23.1.130:80 "POST /WS/16.5/Inventory.asmx HTTP/1.1" 200 227438
-2019-12-12 11:55:29,363 DEBUG  Node Reprovsion  Sucessfull
