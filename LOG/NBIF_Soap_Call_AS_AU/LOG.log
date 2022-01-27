@@ -1,0 +1,632 @@
+2020-02-11 11:30:13,116 INFO NBIF_Soap_Call_AS_AU
+2020-02-11 11:30:13,116 INFO AirUnity
+2020-02-11 11:30:13,178 DEBUG starting thread (client mode): 0x3ba0270
+2020-02-11 11:30:13,178 DEBUG Local version/idstring: SSH-2.0-paramiko_2.5.0
+2020-02-11 11:30:13,225 DEBUG Remote version/idstring: SSH-2.0-OpenSSH_for_Windows_7.7
+2020-02-11 11:30:13,225 INFO Connected (version 2.0, client OpenSSH_for_Windows_7.7)
+2020-02-11 11:30:13,257 DEBUG kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2020-02-11 11:30:13,257 DEBUG Kex agreed: curve25519-sha256@libssh.org
+2020-02-11 11:30:13,257 DEBUG HostKey agreed: ssh-ed25519
+2020-02-11 11:30:13,257 DEBUG Cipher agreed: aes128-ctr
+2020-02-11 11:30:13,257 DEBUG MAC agreed: hmac-sha2-256
+2020-02-11 11:30:13,257 DEBUG Compression agreed: none
+2020-02-11 11:30:13,272 DEBUG kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2020-02-11 11:30:13,272 DEBUG Switch to new keys ...
+2020-02-11 11:30:13,272 DEBUG Adding ssh-ed25519 host key for 172.16.25.18: b'e35b41c691265a02c722b34447dd2c54'
+2020-02-11 11:30:13,319 DEBUG userauth is OK
+2020-02-11 11:30:13,319 INFO Authentication (password) successful!
+2020-02-11 11:30:13,319 DEBUG Successfully connected to node 
+2020-02-11 11:30:13,319 DEBUG [chan 0] Max packet in: 32768 bytes
+2020-02-11 11:30:13,382 DEBUG Received global request "hostkeys-00@openssh.com"
+2020-02-11 11:30:13,382 DEBUG Rejecting "hostkeys-00@openssh.com" global request from server.
+2020-02-11 11:30:13,460 DEBUG [chan 0] Max packet out: 32768 bytes
+2020-02-11 11:30:13,460 DEBUG Secsh channel 0 opened.
+2020-02-11 11:30:13,475 DEBUG [chan 0] Sesch channel 0 request ok
+2020-02-11 11:30:13,475 DEBUG b''
+2020-02-11 11:30:13,475 DEBUG [chan 0] EOF received (0)
+2020-02-11 11:30:13,475 DEBUG b'Could Not Find C:\\Users\\Administrator\\Desktop\\NBIFver2\\NbifStatusLoadTest\\SIM_machine1.csv\r\n'
+2020-02-11 11:30:13,475 DEBUG [chan 0] EOF sent (0)
+2020-02-11 11:30:13,522 DEBUG Closing the connection for 172.16.25.18
+2020-02-11 11:30:13,522 DEBUG EOF in transport thread
+2020-02-11 11:30:13,553 DEBUG starting thread (client mode): 0x3b802b0
+2020-02-11 11:30:13,553 DEBUG Local version/idstring: SSH-2.0-paramiko_2.5.0
+2020-02-11 11:30:13,616 DEBUG Remote version/idstring: SSH-2.0-OpenSSH_for_Windows_7.7
+2020-02-11 11:30:13,616 INFO Connected (version 2.0, client OpenSSH_for_Windows_7.7)
+2020-02-11 11:30:13,663 DEBUG kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2020-02-11 11:30:13,663 DEBUG Kex agreed: curve25519-sha256@libssh.org
+2020-02-11 11:30:13,663 DEBUG HostKey agreed: ssh-ed25519
+2020-02-11 11:30:13,663 DEBUG Cipher agreed: aes128-ctr
+2020-02-11 11:30:13,663 DEBUG MAC agreed: hmac-sha2-256
+2020-02-11 11:30:13,663 DEBUG Compression agreed: none
+2020-02-11 11:30:13,663 DEBUG kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2020-02-11 11:30:13,663 DEBUG Switch to new keys ...
+2020-02-11 11:30:13,663 DEBUG Adding ssh-ed25519 host key for 172.16.25.18: b'e35b41c691265a02c722b34447dd2c54'
+2020-02-11 11:30:13,710 DEBUG userauth is OK
+2020-02-11 11:30:13,710 INFO Authentication (password) successful!
+2020-02-11 11:30:13,710 DEBUG Successfully connected to node 
+2020-02-11 11:30:13,710 DEBUG [chan 0] Max packet in: 32768 bytes
+2020-02-11 11:30:13,757 DEBUG Received global request "hostkeys-00@openssh.com"
+2020-02-11 11:30:13,757 DEBUG Rejecting "hostkeys-00@openssh.com" global request from server.
+2020-02-11 11:30:13,820 DEBUG [chan 0] Max packet out: 32768 bytes
+2020-02-11 11:30:13,820 DEBUG Secsh channel 0 opened.
+2020-02-11 11:30:13,820 DEBUG [chan 0] Sesch channel 0 request ok
+2020-02-11 11:30:13,835 DEBUG b''
+2020-02-11 11:30:13,835 DEBUG [chan 0] EOF received (0)
+2020-02-11 11:30:13,835 DEBUG b'Could Not Find C:\\Users\\Administrator\\Desktop\\NBIFver2\\NbifStatusLoadTest\\SIM_machine2.csv\r\n'
+2020-02-11 11:30:13,835 DEBUG [chan 0] EOF sent (0)
+2020-02-11 11:30:13,882 DEBUG Closing the connection for 172.16.25.18
+2020-02-11 11:30:13,882 DEBUG EOF in transport thread
+2020-02-11 11:30:13,944 DEBUG starting thread (client mode): 0x41e5b50
+2020-02-11 11:30:13,960 DEBUG Local version/idstring: SSH-2.0-paramiko_2.5.0
+2020-02-11 11:30:14,069 DEBUG Remote version/idstring: SSH-2.0-OpenSSH_for_Windows_7.7
+2020-02-11 11:30:14,069 INFO Connected (version 2.0, client OpenSSH_for_Windows_7.7)
+2020-02-11 11:30:14,147 DEBUG kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2020-02-11 11:30:14,147 DEBUG Kex agreed: curve25519-sha256@libssh.org
+2020-02-11 11:30:14,147 DEBUG HostKey agreed: ssh-ed25519
+2020-02-11 11:30:14,147 DEBUG Cipher agreed: aes128-ctr
+2020-02-11 11:30:14,147 DEBUG MAC agreed: hmac-sha2-256
+2020-02-11 11:30:14,147 DEBUG Compression agreed: none
+2020-02-11 11:30:14,163 DEBUG kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2020-02-11 11:30:14,163 DEBUG Switch to new keys ...
+2020-02-11 11:30:14,163 DEBUG Adding ssh-ed25519 host key for 172.16.25.18: b'e35b41c691265a02c722b34447dd2c54'
+2020-02-11 11:30:14,210 DEBUG userauth is OK
+2020-02-11 11:30:14,210 INFO Authentication (password) successful!
+2020-02-11 11:30:14,210 DEBUG Successfully connected to node 
+2020-02-11 11:30:14,210 DEBUG [chan 0] Max packet in: 32768 bytes
+2020-02-11 11:30:14,257 DEBUG Received global request "hostkeys-00@openssh.com"
+2020-02-11 11:30:14,257 DEBUG Rejecting "hostkeys-00@openssh.com" global request from server.
+2020-02-11 11:30:14,319 DEBUG [chan 0] Max packet out: 32768 bytes
+2020-02-11 11:30:14,319 DEBUG Secsh channel 0 opened.
+2020-02-11 11:30:14,319 DEBUG [chan 0] Sesch channel 0 request ok
+2020-02-11 11:30:14,319 DEBUG b''
+2020-02-11 11:30:14,319 DEBUG [chan 0] EOF received (0)
+2020-02-11 11:30:14,335 DEBUG b'Could Not Find C:\\Users\\Administrator\\Desktop\\NBIFver2\\NbifStatusLoadTest\\SIM_machine3.csv\r\n'
+2020-02-11 11:30:14,335 DEBUG [chan 0] EOF sent (0)
+2020-02-11 11:30:14,382 DEBUG Closing the connection for 172.16.25.18
+2020-02-11 11:30:14,382 DEBUG EOF in transport thread
+2020-02-11 11:30:14,397 DEBUG starting thread (client mode): 0x41e5a10
+2020-02-11 11:30:14,397 DEBUG Local version/idstring: SSH-2.0-paramiko_2.5.0
+2020-02-11 11:30:14,600 DEBUG Remote version/idstring: SSH-2.0-OpenSSH_for_Windows_7.7
+2020-02-11 11:30:14,600 INFO Connected (version 2.0, client OpenSSH_for_Windows_7.7)
+2020-02-11 11:30:14,678 DEBUG kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2020-02-11 11:30:14,678 DEBUG Kex agreed: curve25519-sha256@libssh.org
+2020-02-11 11:30:14,678 DEBUG HostKey agreed: ssh-ed25519
+2020-02-11 11:30:14,678 DEBUG Cipher agreed: aes128-ctr
+2020-02-11 11:30:14,678 DEBUG MAC agreed: hmac-sha2-256
+2020-02-11 11:30:14,678 DEBUG Compression agreed: none
+2020-02-11 11:30:14,694 DEBUG kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2020-02-11 11:30:14,694 DEBUG Switch to new keys ...
+2020-02-11 11:30:14,694 DEBUG Adding ssh-ed25519 host key for 172.16.25.18: b'e35b41c691265a02c722b34447dd2c54'
+2020-02-11 11:30:14,741 DEBUG userauth is OK
+2020-02-11 11:30:14,741 INFO Authentication (password) successful!
+2020-02-11 11:30:14,741 DEBUG Successfully connected to node 
+2020-02-11 11:30:14,741 DEBUG [chan 0] Max packet in: 32768 bytes
+2020-02-11 11:30:14,788 DEBUG Received global request "hostkeys-00@openssh.com"
+2020-02-11 11:30:14,788 DEBUG Rejecting "hostkeys-00@openssh.com" global request from server.
+2020-02-11 11:30:14,850 DEBUG [chan 0] Max packet out: 32768 bytes
+2020-02-11 11:30:14,850 DEBUG Secsh channel 0 opened.
+2020-02-11 11:30:14,850 DEBUG [chan 0] Sesch channel 0 request ok
+2020-02-11 11:30:14,866 DEBUG b''
+2020-02-11 11:30:14,866 DEBUG [chan 0] EOF received (0)
+2020-02-11 11:30:14,866 DEBUG b'Could Not Find C:\\Users\\Administrator\\Desktop\\NBIFver2\\NbifStatusLoadTest\\SIM_machine4.csv\r\n'
+2020-02-11 11:30:14,866 DEBUG [chan 0] EOF sent (0)
+2020-02-11 11:30:14,913 DEBUG Closing the connection for 172.16.25.18
+2020-02-11 11:30:14,913 DEBUG EOF in transport thread
+2020-02-11 11:31:54,913 DEBUG starting thread (client mode): 0x43026d0
+2020-02-11 11:31:54,913 DEBUG Local version/idstring: SSH-2.0-paramiko_2.5.0
+2020-02-11 11:31:54,991 DEBUG Remote version/idstring: SSH-2.0-OpenSSH_for_Windows_7.7
+2020-02-11 11:31:54,991 INFO Connected (version 2.0, client OpenSSH_for_Windows_7.7)
+2020-02-11 11:31:55,038 DEBUG kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2020-02-11 11:31:55,038 DEBUG Kex agreed: curve25519-sha256@libssh.org
+2020-02-11 11:31:55,038 DEBUG HostKey agreed: ssh-ed25519
+2020-02-11 11:31:55,038 DEBUG Cipher agreed: aes128-ctr
+2020-02-11 11:31:55,038 DEBUG MAC agreed: hmac-sha2-256
+2020-02-11 11:31:55,038 DEBUG Compression agreed: none
+2020-02-11 11:31:55,038 DEBUG kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2020-02-11 11:31:55,038 DEBUG Switch to new keys ...
+2020-02-11 11:31:55,038 DEBUG Adding ssh-ed25519 host key for 172.16.25.18: b'e35b41c691265a02c722b34447dd2c54'
+2020-02-11 11:31:55,085 DEBUG userauth is OK
+2020-02-11 11:31:55,116 INFO Authentication (password) successful!
+2020-02-11 11:31:55,116 DEBUG [chan 0] Max packet in: 32768 bytes
+2020-02-11 11:31:55,194 DEBUG Received global request "hostkeys-00@openssh.com"
+2020-02-11 11:31:55,194 DEBUG Rejecting "hostkeys-00@openssh.com" global request from server.
+2020-02-11 11:31:55,257 DEBUG [chan 0] Max packet out: 32768 bytes
+2020-02-11 11:31:55,257 DEBUG Secsh channel 0 opened.
+2020-02-11 11:31:55,257 DEBUG [chan 0] Sesch channel 0 request ok
+2020-02-11 11:31:55,288 INFO [chan 0] Opened sftp connection (server version 3)
+2020-02-11 11:31:55,288 DEBUG [chan 0] stat(b'C:\\Users\\Administrator\\Desktop\\NBIFver2\\NbifStatusLoadTest\\SIM_machine1.csv')
+2020-02-11 11:31:55,288 DEBUG Closing the connection for 172.16.25.18
+2020-02-11 11:31:55,288 DEBUG starting thread (client mode): 0x4302990
+2020-02-11 11:31:55,288 DEBUG Local version/idstring: SSH-2.0-paramiko_2.5.0
+2020-02-11 11:31:55,351 DEBUG Remote version/idstring: SSH-2.0-OpenSSH_for_Windows_7.7
+2020-02-11 11:31:55,351 INFO Connected (version 2.0, client OpenSSH_for_Windows_7.7)
+2020-02-11 11:31:55,382 DEBUG kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2020-02-11 11:31:55,382 DEBUG Kex agreed: curve25519-sha256@libssh.org
+2020-02-11 11:31:55,382 DEBUG HostKey agreed: ssh-ed25519
+2020-02-11 11:31:55,382 DEBUG Cipher agreed: aes128-ctr
+2020-02-11 11:31:55,382 DEBUG MAC agreed: hmac-sha2-256
+2020-02-11 11:31:55,382 DEBUG Compression agreed: none
+2020-02-11 11:31:55,413 DEBUG kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2020-02-11 11:31:55,413 DEBUG Switch to new keys ...
+2020-02-11 11:31:55,413 DEBUG Adding ssh-ed25519 host key for 172.16.25.18: b'e35b41c691265a02c722b34447dd2c54'
+2020-02-11 11:31:55,460 DEBUG userauth is OK
+2020-02-11 11:31:55,476 INFO Authentication (password) successful!
+2020-02-11 11:31:55,491 DEBUG [chan 0] Max packet in: 32768 bytes
+2020-02-11 11:31:55,554 DEBUG Received global request "hostkeys-00@openssh.com"
+2020-02-11 11:31:55,554 DEBUG Rejecting "hostkeys-00@openssh.com" global request from server.
+2020-02-11 11:31:55,601 DEBUG [chan 0] Max packet out: 32768 bytes
+2020-02-11 11:31:55,601 DEBUG Secsh channel 0 opened.
+2020-02-11 11:31:55,601 DEBUG [chan 0] Sesch channel 0 request ok
+2020-02-11 11:31:55,632 INFO [chan 0] Opened sftp connection (server version 3)
+2020-02-11 11:31:55,632 DEBUG [chan 0] stat(b'C:\\Users\\Administrator\\Desktop\\NBIFver2\\NbifStatusLoadTest\\SIM_machine2.csv')
+2020-02-11 11:31:55,632 DEBUG Closing the connection for 172.16.25.18
+2020-02-11 11:31:55,632 DEBUG starting thread (client mode): 0x41f2170
+2020-02-11 11:31:55,632 DEBUG Local version/idstring: SSH-2.0-paramiko_2.5.0
+2020-02-11 11:31:55,710 DEBUG Remote version/idstring: SSH-2.0-OpenSSH_for_Windows_7.7
+2020-02-11 11:31:55,710 INFO Connected (version 2.0, client OpenSSH_for_Windows_7.7)
+2020-02-11 11:31:55,757 DEBUG kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2020-02-11 11:31:55,757 DEBUG Kex agreed: curve25519-sha256@libssh.org
+2020-02-11 11:31:55,757 DEBUG HostKey agreed: ssh-ed25519
+2020-02-11 11:31:55,757 DEBUG Cipher agreed: aes128-ctr
+2020-02-11 11:31:55,757 DEBUG MAC agreed: hmac-sha2-256
+2020-02-11 11:31:55,757 DEBUG Compression agreed: none
+2020-02-11 11:31:55,757 DEBUG kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2020-02-11 11:31:55,757 DEBUG Switch to new keys ...
+2020-02-11 11:31:55,757 DEBUG Adding ssh-ed25519 host key for 172.16.25.18: b'e35b41c691265a02c722b34447dd2c54'
+2020-02-11 11:31:55,819 DEBUG userauth is OK
+2020-02-11 11:31:55,819 INFO Authentication (password) successful!
+2020-02-11 11:31:55,819 DEBUG [chan 0] Max packet in: 32768 bytes
+2020-02-11 11:31:55,882 DEBUG Received global request "hostkeys-00@openssh.com"
+2020-02-11 11:31:55,882 DEBUG Rejecting "hostkeys-00@openssh.com" global request from server.
+2020-02-11 11:31:55,944 DEBUG [chan 0] Max packet out: 32768 bytes
+2020-02-11 11:31:55,944 DEBUG Secsh channel 0 opened.
+2020-02-11 11:31:55,944 DEBUG [chan 0] Sesch channel 0 request ok
+2020-02-11 11:31:55,976 INFO [chan 0] Opened sftp connection (server version 3)
+2020-02-11 11:31:55,976 DEBUG [chan 0] stat(b'C:\\Users\\Administrator\\Desktop\\NBIFver2\\NbifStatusLoadTest\\SIM_machine3.csv')
+2020-02-11 11:31:55,976 DEBUG Closing the connection for 172.16.25.18
+2020-02-11 11:31:55,976 DEBUG starting thread (client mode): 0x4310070
+2020-02-11 11:31:55,976 DEBUG Local version/idstring: SSH-2.0-paramiko_2.5.0
+2020-02-11 11:31:56,054 DEBUG Remote version/idstring: SSH-2.0-OpenSSH_for_Windows_7.7
+2020-02-11 11:31:56,054 INFO Connected (version 2.0, client OpenSSH_for_Windows_7.7)
+2020-02-11 11:31:56,147 DEBUG kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2020-02-11 11:31:56,147 DEBUG Kex agreed: curve25519-sha256@libssh.org
+2020-02-11 11:31:56,147 DEBUG HostKey agreed: ssh-ed25519
+2020-02-11 11:31:56,147 DEBUG Cipher agreed: aes128-ctr
+2020-02-11 11:31:56,147 DEBUG MAC agreed: hmac-sha2-256
+2020-02-11 11:31:56,147 DEBUG Compression agreed: none
+2020-02-11 11:31:56,163 DEBUG kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2020-02-11 11:31:56,163 DEBUG Switch to new keys ...
+2020-02-11 11:31:56,163 DEBUG Adding ssh-ed25519 host key for 172.16.25.18: b'e35b41c691265a02c722b34447dd2c54'
+2020-02-11 11:31:56,210 DEBUG userauth is OK
+2020-02-11 11:31:56,226 INFO Authentication (password) successful!
+2020-02-11 11:31:56,226 DEBUG [chan 0] Max packet in: 32768 bytes
+2020-02-11 11:31:56,288 DEBUG Received global request "hostkeys-00@openssh.com"
+2020-02-11 11:31:56,288 DEBUG Rejecting "hostkeys-00@openssh.com" global request from server.
+2020-02-11 11:31:56,351 DEBUG [chan 0] Max packet out: 32768 bytes
+2020-02-11 11:31:56,351 DEBUG Secsh channel 0 opened.
+2020-02-11 11:31:56,351 DEBUG [chan 0] Sesch channel 0 request ok
+2020-02-11 11:31:56,366 INFO [chan 0] Opened sftp connection (server version 3)
+2020-02-11 11:31:56,366 DEBUG [chan 0] stat(b'C:\\Users\\Administrator\\Desktop\\NBIFver2\\NbifStatusLoadTest\\SIM_machine4.csv')
+2020-02-11 11:31:56,382 DEBUG Closing the connection for 172.16.25.18
+2020-02-11 11:31:56,538 DEBUG starting thread (client mode): 0x41f28d0
+2020-02-11 11:31:56,538 DEBUG Local version/idstring: SSH-2.0-paramiko_2.5.0
+2020-02-11 11:31:56,601 DEBUG Remote version/idstring: SSH-2.0-OpenSSH_for_Windows_7.7
+2020-02-11 11:31:56,601 INFO Connected (version 2.0, client OpenSSH_for_Windows_7.7)
+2020-02-11 11:31:56,632 DEBUG kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2020-02-11 11:31:56,632 DEBUG Kex agreed: curve25519-sha256@libssh.org
+2020-02-11 11:31:56,632 DEBUG HostKey agreed: ssh-ed25519
+2020-02-11 11:31:56,632 DEBUG Cipher agreed: aes128-ctr
+2020-02-11 11:31:56,632 DEBUG MAC agreed: hmac-sha2-256
+2020-02-11 11:31:56,632 DEBUG Compression agreed: none
+2020-02-11 11:31:56,647 DEBUG kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2020-02-11 11:31:56,647 DEBUG Switch to new keys ...
+2020-02-11 11:31:56,647 DEBUG Adding ssh-ed25519 host key for 172.16.25.18: b'e35b41c691265a02c722b34447dd2c54'
+2020-02-11 11:31:56,694 DEBUG userauth is OK
+2020-02-11 11:31:56,694 INFO Authentication (password) successful!
+2020-02-11 11:31:56,694 DEBUG Successfully connected to node 
+2020-02-11 11:31:56,694 DEBUG [chan 0] Max packet in: 32768 bytes
+2020-02-11 11:31:56,741 DEBUG Received global request "hostkeys-00@openssh.com"
+2020-02-11 11:31:56,741 DEBUG Rejecting "hostkeys-00@openssh.com" global request from server.
+2020-02-11 11:31:56,804 DEBUG [chan 0] Max packet out: 32768 bytes
+2020-02-11 11:31:56,804 DEBUG Secsh channel 0 opened.
+2020-02-11 11:31:56,804 DEBUG [chan 0] Sesch channel 0 request ok
+2020-02-11 11:31:56,804 DEBUG b''
+2020-02-11 11:31:56,804 DEBUG [chan 0] EOF received (0)
+2020-02-11 11:31:56,804 DEBUG b'Could Not Find C:\\Users\\Administrator\\Desktop\\NBIFver2\\NbifStatusLoadTest\\SIM_machine1.csv\r\n'
+2020-02-11 11:31:56,819 DEBUG [chan 0] EOF sent (0)
+2020-02-11 11:31:56,866 DEBUG Closing the connection for 172.16.25.18
+2020-02-11 11:31:56,866 DEBUG EOF in transport thread
+2020-02-11 11:31:56,913 DEBUG starting thread (client mode): 0x4302710
+2020-02-11 11:31:56,913 DEBUG Local version/idstring: SSH-2.0-paramiko_2.5.0
+2020-02-11 11:31:57,085 DEBUG Remote version/idstring: SSH-2.0-OpenSSH_for_Windows_7.7
+2020-02-11 11:31:57,085 INFO Connected (version 2.0, client OpenSSH_for_Windows_7.7)
+2020-02-11 11:31:57,226 DEBUG kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2020-02-11 11:31:57,226 DEBUG Kex agreed: curve25519-sha256@libssh.org
+2020-02-11 11:31:57,226 DEBUG HostKey agreed: ssh-ed25519
+2020-02-11 11:31:57,226 DEBUG Cipher agreed: aes128-ctr
+2020-02-11 11:31:57,226 DEBUG MAC agreed: hmac-sha2-256
+2020-02-11 11:31:57,226 DEBUG Compression agreed: none
+2020-02-11 11:31:57,241 DEBUG kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2020-02-11 11:31:57,241 DEBUG Switch to new keys ...
+2020-02-11 11:31:57,241 DEBUG Adding ssh-ed25519 host key for 172.16.25.18: b'e35b41c691265a02c722b34447dd2c54'
+2020-02-11 11:31:57,288 DEBUG userauth is OK
+2020-02-11 11:31:57,335 INFO Authentication (password) successful!
+2020-02-11 11:31:57,335 DEBUG Successfully connected to node 
+2020-02-11 11:31:57,335 DEBUG [chan 0] Max packet in: 32768 bytes
+2020-02-11 11:31:57,569 DEBUG Received global request "hostkeys-00@openssh.com"
+2020-02-11 11:31:57,569 DEBUG Rejecting "hostkeys-00@openssh.com" global request from server.
+2020-02-11 11:31:57,632 DEBUG [chan 0] Max packet out: 32768 bytes
+2020-02-11 11:31:57,632 DEBUG Secsh channel 0 opened.
+2020-02-11 11:31:57,648 DEBUG [chan 0] Sesch channel 0 request ok
+2020-02-11 11:31:57,679 DEBUG b''
+2020-02-11 11:31:57,679 DEBUG [chan 0] EOF received (0)
+2020-02-11 11:31:57,679 DEBUG b'Could Not Find C:\\Users\\Administrator\\Desktop\\NBIFver2\\NbifStatusLoadTest\\SIM_machine2.csv\r\n'
+2020-02-11 11:31:57,679 DEBUG [chan 0] EOF sent (0)
+2020-02-11 11:31:57,726 DEBUG Closing the connection for 172.16.25.18
+2020-02-11 11:31:57,726 DEBUG EOF in transport thread
+2020-02-11 11:31:57,757 DEBUG starting thread (client mode): 0x431c570
+2020-02-11 11:31:57,757 DEBUG Local version/idstring: SSH-2.0-paramiko_2.5.0
+2020-02-11 11:31:57,913 DEBUG Remote version/idstring: SSH-2.0-OpenSSH_for_Windows_7.7
+2020-02-11 11:31:57,913 INFO Connected (version 2.0, client OpenSSH_for_Windows_7.7)
+2020-02-11 11:31:58,007 DEBUG kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2020-02-11 11:31:58,007 DEBUG Kex agreed: curve25519-sha256@libssh.org
+2020-02-11 11:31:58,007 DEBUG HostKey agreed: ssh-ed25519
+2020-02-11 11:31:58,007 DEBUG Cipher agreed: aes128-ctr
+2020-02-11 11:31:58,007 DEBUG MAC agreed: hmac-sha2-256
+2020-02-11 11:31:58,007 DEBUG Compression agreed: none
+2020-02-11 11:31:58,038 DEBUG kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2020-02-11 11:31:58,038 DEBUG Switch to new keys ...
+2020-02-11 11:31:58,038 DEBUG Adding ssh-ed25519 host key for 172.16.25.18: b'e35b41c691265a02c722b34447dd2c54'
+2020-02-11 11:31:58,085 DEBUG userauth is OK
+2020-02-11 11:31:58,179 INFO Authentication (password) successful!
+2020-02-11 11:31:58,179 DEBUG Successfully connected to node 
+2020-02-11 11:31:58,179 DEBUG [chan 0] Max packet in: 32768 bytes
+2020-02-11 11:31:58,319 DEBUG Received global request "hostkeys-00@openssh.com"
+2020-02-11 11:31:58,319 DEBUG Rejecting "hostkeys-00@openssh.com" global request from server.
+2020-02-11 11:31:58,382 DEBUG [chan 0] Max packet out: 32768 bytes
+2020-02-11 11:31:58,382 DEBUG Secsh channel 0 opened.
+2020-02-11 11:31:58,382 DEBUG [chan 0] Sesch channel 0 request ok
+2020-02-11 11:31:58,444 DEBUG b''
+2020-02-11 11:31:58,444 DEBUG [chan 0] EOF received (0)
+2020-02-11 11:31:58,444 DEBUG b'Could Not Find C:\\Users\\Administrator\\Desktop\\NBIFver2\\NbifStatusLoadTest\\SIM_machine3.csv\r\n'
+2020-02-11 11:31:58,444 DEBUG [chan 0] EOF sent (0)
+2020-02-11 11:31:58,507 DEBUG Closing the connection for 172.16.25.18
+2020-02-11 11:31:58,507 DEBUG EOF in transport thread
+2020-02-11 11:31:58,554 DEBUG starting thread (client mode): 0x431cbd0
+2020-02-11 11:31:58,554 DEBUG Local version/idstring: SSH-2.0-paramiko_2.5.0
+2020-02-11 11:31:58,710 DEBUG Remote version/idstring: SSH-2.0-OpenSSH_for_Windows_7.7
+2020-02-11 11:31:58,710 INFO Connected (version 2.0, client OpenSSH_for_Windows_7.7)
+2020-02-11 11:31:58,772 DEBUG kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2020-02-11 11:31:58,772 DEBUG Kex agreed: curve25519-sha256@libssh.org
+2020-02-11 11:31:58,772 DEBUG HostKey agreed: ssh-ed25519
+2020-02-11 11:31:58,772 DEBUG Cipher agreed: aes128-ctr
+2020-02-11 11:31:58,772 DEBUG MAC agreed: hmac-sha2-256
+2020-02-11 11:31:58,772 DEBUG Compression agreed: none
+2020-02-11 11:31:58,788 DEBUG kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2020-02-11 11:31:58,788 DEBUG Switch to new keys ...
+2020-02-11 11:31:58,788 DEBUG Adding ssh-ed25519 host key for 172.16.25.18: b'e35b41c691265a02c722b34447dd2c54'
+2020-02-11 11:31:58,835 DEBUG userauth is OK
+2020-02-11 11:31:58,866 INFO Authentication (password) successful!
+2020-02-11 11:31:58,866 DEBUG Successfully connected to node 
+2020-02-11 11:31:58,866 DEBUG [chan 0] Max packet in: 32768 bytes
+2020-02-11 11:31:58,991 DEBUG Received global request "hostkeys-00@openssh.com"
+2020-02-11 11:31:58,991 DEBUG Rejecting "hostkeys-00@openssh.com" global request from server.
+2020-02-11 11:31:59,054 DEBUG [chan 0] Max packet out: 32768 bytes
+2020-02-11 11:31:59,054 DEBUG Secsh channel 0 opened.
+2020-02-11 11:31:59,069 DEBUG [chan 0] Sesch channel 0 request ok
+2020-02-11 11:31:59,147 DEBUG b''
+2020-02-11 11:31:59,147 DEBUG [chan 0] EOF received (0)
+2020-02-11 11:31:59,147 DEBUG b'Could Not Find C:\\Users\\Administrator\\Desktop\\NBIFver2\\NbifStatusLoadTest\\SIM_machine4.csv\r\n'
+2020-02-11 11:31:59,147 DEBUG [chan 0] EOF sent (0)
+2020-02-11 11:31:59,194 DEBUG Closing the connection for 172.16.25.18
+2020-02-11 11:31:59,194 DEBUG EOF in transport thread
+2020-02-11 11:33:39,195 DEBUG starting thread (client mode): 0x4322fd0
+2020-02-11 11:33:39,195 DEBUG Local version/idstring: SSH-2.0-paramiko_2.5.0
+2020-02-11 11:33:39,273 DEBUG Remote version/idstring: SSH-2.0-OpenSSH_for_Windows_7.7
+2020-02-11 11:33:39,273 INFO Connected (version 2.0, client OpenSSH_for_Windows_7.7)
+2020-02-11 11:33:39,320 DEBUG kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2020-02-11 11:33:39,320 DEBUG Kex agreed: curve25519-sha256@libssh.org
+2020-02-11 11:33:39,320 DEBUG HostKey agreed: ssh-ed25519
+2020-02-11 11:33:39,320 DEBUG Cipher agreed: aes128-ctr
+2020-02-11 11:33:39,320 DEBUG MAC agreed: hmac-sha2-256
+2020-02-11 11:33:39,320 DEBUG Compression agreed: none
+2020-02-11 11:33:39,320 DEBUG kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2020-02-11 11:33:39,320 DEBUG Switch to new keys ...
+2020-02-11 11:33:39,320 DEBUG Adding ssh-ed25519 host key for 172.16.25.18: b'e35b41c691265a02c722b34447dd2c54'
+2020-02-11 11:33:39,366 DEBUG userauth is OK
+2020-02-11 11:33:39,366 INFO Authentication (password) successful!
+2020-02-11 11:33:39,366 DEBUG [chan 0] Max packet in: 32768 bytes
+2020-02-11 11:33:39,523 DEBUG Received global request "hostkeys-00@openssh.com"
+2020-02-11 11:33:39,523 DEBUG Rejecting "hostkeys-00@openssh.com" global request from server.
+2020-02-11 11:33:39,585 DEBUG [chan 0] Max packet out: 32768 bytes
+2020-02-11 11:33:39,585 DEBUG Secsh channel 0 opened.
+2020-02-11 11:33:39,585 DEBUG [chan 0] Sesch channel 0 request ok
+2020-02-11 11:33:39,601 INFO [chan 0] Opened sftp connection (server version 3)
+2020-02-11 11:33:39,601 DEBUG [chan 0] stat(b'C:\\Users\\Administrator\\Desktop\\NBIFver2\\NbifStatusLoadTest\\SIM_machine1.csv')
+2020-02-11 11:33:39,601 DEBUG Closing the connection for 172.16.25.18
+2020-02-11 11:33:39,616 DEBUG starting thread (client mode): 0x4332410
+2020-02-11 11:33:39,616 DEBUG Local version/idstring: SSH-2.0-paramiko_2.5.0
+2020-02-11 11:33:39,679 DEBUG Remote version/idstring: SSH-2.0-OpenSSH_for_Windows_7.7
+2020-02-11 11:33:39,679 INFO Connected (version 2.0, client OpenSSH_for_Windows_7.7)
+2020-02-11 11:33:39,726 DEBUG kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2020-02-11 11:33:39,726 DEBUG Kex agreed: curve25519-sha256@libssh.org
+2020-02-11 11:33:39,726 DEBUG HostKey agreed: ssh-ed25519
+2020-02-11 11:33:39,726 DEBUG Cipher agreed: aes128-ctr
+2020-02-11 11:33:39,726 DEBUG MAC agreed: hmac-sha2-256
+2020-02-11 11:33:39,726 DEBUG Compression agreed: none
+2020-02-11 11:33:39,726 DEBUG kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2020-02-11 11:33:39,726 DEBUG Switch to new keys ...
+2020-02-11 11:33:39,726 DEBUG Adding ssh-ed25519 host key for 172.16.25.18: b'e35b41c691265a02c722b34447dd2c54'
+2020-02-11 11:33:39,788 DEBUG userauth is OK
+2020-02-11 11:33:39,788 INFO Authentication (password) successful!
+2020-02-11 11:33:39,788 DEBUG [chan 0] Max packet in: 32768 bytes
+2020-02-11 11:33:39,851 DEBUG Received global request "hostkeys-00@openssh.com"
+2020-02-11 11:33:39,851 DEBUG Rejecting "hostkeys-00@openssh.com" global request from server.
+2020-02-11 11:33:39,913 DEBUG [chan 0] Max packet out: 32768 bytes
+2020-02-11 11:33:39,913 DEBUG Secsh channel 0 opened.
+2020-02-11 11:33:39,913 DEBUG [chan 0] Sesch channel 0 request ok
+2020-02-11 11:33:39,945 INFO [chan 0] Opened sftp connection (server version 3)
+2020-02-11 11:33:39,945 DEBUG [chan 0] stat(b'C:\\Users\\Administrator\\Desktop\\NBIFver2\\NbifStatusLoadTest\\SIM_machine2.csv')
+2020-02-11 11:33:39,945 DEBUG Closing the connection for 172.16.25.18
+2020-02-11 11:33:39,945 DEBUG starting thread (client mode): 0x4332a90
+2020-02-11 11:33:39,945 DEBUG Local version/idstring: SSH-2.0-paramiko_2.5.0
+2020-02-11 11:33:40,023 DEBUG Remote version/idstring: SSH-2.0-OpenSSH_for_Windows_7.7
+2020-02-11 11:33:40,023 INFO Connected (version 2.0, client OpenSSH_for_Windows_7.7)
+2020-02-11 11:33:40,054 DEBUG kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2020-02-11 11:33:40,054 DEBUG Kex agreed: curve25519-sha256@libssh.org
+2020-02-11 11:33:40,054 DEBUG HostKey agreed: ssh-ed25519
+2020-02-11 11:33:40,054 DEBUG Cipher agreed: aes128-ctr
+2020-02-11 11:33:40,054 DEBUG MAC agreed: hmac-sha2-256
+2020-02-11 11:33:40,054 DEBUG Compression agreed: none
+2020-02-11 11:33:40,070 DEBUG kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2020-02-11 11:33:40,070 DEBUG Switch to new keys ...
+2020-02-11 11:33:40,070 DEBUG Adding ssh-ed25519 host key for 172.16.25.18: b'e35b41c691265a02c722b34447dd2c54'
+2020-02-11 11:33:40,116 DEBUG userauth is OK
+2020-02-11 11:33:40,163 INFO Authentication (password) successful!
+2020-02-11 11:33:40,163 DEBUG [chan 0] Max packet in: 32768 bytes
+2020-02-11 11:33:40,210 DEBUG Received global request "hostkeys-00@openssh.com"
+2020-02-11 11:33:40,210 DEBUG Rejecting "hostkeys-00@openssh.com" global request from server.
+2020-02-11 11:33:40,273 DEBUG [chan 0] Max packet out: 32768 bytes
+2020-02-11 11:33:40,273 DEBUG Secsh channel 0 opened.
+2020-02-11 11:33:40,273 DEBUG [chan 0] Sesch channel 0 request ok
+2020-02-11 11:33:40,304 INFO [chan 0] Opened sftp connection (server version 3)
+2020-02-11 11:33:40,304 DEBUG [chan 0] stat(b'C:\\Users\\Administrator\\Desktop\\NBIFver2\\NbifStatusLoadTest\\SIM_machine3.csv')
+2020-02-11 11:33:40,304 DEBUG Closing the connection for 172.16.25.18
+2020-02-11 11:33:40,304 DEBUG starting thread (client mode): 0x431cd50
+2020-02-11 11:33:40,304 DEBUG Local version/idstring: SSH-2.0-paramiko_2.5.0
+2020-02-11 11:33:40,382 DEBUG Remote version/idstring: SSH-2.0-OpenSSH_for_Windows_7.7
+2020-02-11 11:33:40,382 INFO Connected (version 2.0, client OpenSSH_for_Windows_7.7)
+2020-02-11 11:33:40,491 DEBUG kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2020-02-11 11:33:40,491 DEBUG Kex agreed: curve25519-sha256@libssh.org
+2020-02-11 11:33:40,507 DEBUG HostKey agreed: ssh-ed25519
+2020-02-11 11:33:40,507 DEBUG Cipher agreed: aes128-ctr
+2020-02-11 11:33:40,507 DEBUG MAC agreed: hmac-sha2-256
+2020-02-11 11:33:40,507 DEBUG Compression agreed: none
+2020-02-11 11:33:40,507 DEBUG kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2020-02-11 11:33:40,523 DEBUG Switch to new keys ...
+2020-02-11 11:33:40,523 DEBUG Adding ssh-ed25519 host key for 172.16.25.18: b'e35b41c691265a02c722b34447dd2c54'
+2020-02-11 11:33:40,570 DEBUG userauth is OK
+2020-02-11 11:33:40,570 INFO Authentication (password) successful!
+2020-02-11 11:33:40,570 DEBUG [chan 0] Max packet in: 32768 bytes
+2020-02-11 11:33:40,632 DEBUG Received global request "hostkeys-00@openssh.com"
+2020-02-11 11:33:40,632 DEBUG Rejecting "hostkeys-00@openssh.com" global request from server.
+2020-02-11 11:33:40,695 DEBUG [chan 0] Max packet out: 32768 bytes
+2020-02-11 11:33:40,695 DEBUG Secsh channel 0 opened.
+2020-02-11 11:33:40,695 DEBUG [chan 0] Sesch channel 0 request ok
+2020-02-11 11:33:40,710 INFO [chan 0] Opened sftp connection (server version 3)
+2020-02-11 11:33:40,710 DEBUG [chan 0] stat(b'C:\\Users\\Administrator\\Desktop\\NBIFver2\\NbifStatusLoadTest\\SIM_machine4.csv')
+2020-02-11 11:33:40,710 DEBUG Closing the connection for 172.16.25.18
+2020-02-11 11:33:40,773 DEBUG starting thread (client mode): 0x431ccf0
+2020-02-11 11:33:40,773 DEBUG Local version/idstring: SSH-2.0-paramiko_2.5.0
+2020-02-11 11:33:40,866 DEBUG Remote version/idstring: SSH-2.0-OpenSSH_for_Windows_7.7
+2020-02-11 11:33:40,866 INFO Connected (version 2.0, client OpenSSH_for_Windows_7.7)
+2020-02-11 11:33:40,913 DEBUG kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2020-02-11 11:33:40,913 DEBUG Kex agreed: curve25519-sha256@libssh.org
+2020-02-11 11:33:40,913 DEBUG HostKey agreed: ssh-ed25519
+2020-02-11 11:33:40,913 DEBUG Cipher agreed: aes128-ctr
+2020-02-11 11:33:40,913 DEBUG MAC agreed: hmac-sha2-256
+2020-02-11 11:33:40,913 DEBUG Compression agreed: none
+2020-02-11 11:33:40,929 DEBUG kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2020-02-11 11:33:40,929 DEBUG Switch to new keys ...
+2020-02-11 11:33:40,929 DEBUG Adding ssh-ed25519 host key for 172.16.25.18: b'e35b41c691265a02c722b34447dd2c54'
+2020-02-11 11:33:40,976 DEBUG userauth is OK
+2020-02-11 11:33:40,991 INFO Authentication (password) successful!
+2020-02-11 11:33:40,991 DEBUG Successfully connected to node 
+2020-02-11 11:33:40,991 DEBUG [chan 0] Max packet in: 32768 bytes
+2020-02-11 11:33:41,038 DEBUG Received global request "hostkeys-00@openssh.com"
+2020-02-11 11:33:41,038 DEBUG Rejecting "hostkeys-00@openssh.com" global request from server.
+2020-02-11 11:33:41,101 DEBUG [chan 0] Max packet out: 32768 bytes
+2020-02-11 11:33:41,101 DEBUG Secsh channel 0 opened.
+2020-02-11 11:33:41,116 DEBUG [chan 0] Sesch channel 0 request ok
+2020-02-11 11:33:41,163 DEBUG b''
+2020-02-11 11:33:41,163 DEBUG [chan 0] EOF received (0)
+2020-02-11 11:33:41,163 DEBUG b'Could Not Find C:\\Users\\Administrator\\Desktop\\NBIFver2\\NbifStatusLoadTest\\SIM_machine1.csv\r\n'
+2020-02-11 11:33:41,163 DEBUG [chan 0] EOF sent (0)
+2020-02-11 11:33:41,226 DEBUG Closing the connection for 172.16.25.18
+2020-02-11 11:33:41,226 DEBUG EOF in transport thread
+2020-02-11 11:33:41,257 DEBUG starting thread (client mode): 0x4322fb0
+2020-02-11 11:33:41,257 DEBUG Local version/idstring: SSH-2.0-paramiko_2.5.0
+2020-02-11 11:33:41,413 DEBUG Remote version/idstring: SSH-2.0-OpenSSH_for_Windows_7.7
+2020-02-11 11:33:41,413 INFO Connected (version 2.0, client OpenSSH_for_Windows_7.7)
+2020-02-11 11:33:41,601 DEBUG kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2020-02-11 11:33:41,601 DEBUG Kex agreed: curve25519-sha256@libssh.org
+2020-02-11 11:33:41,601 DEBUG HostKey agreed: ssh-ed25519
+2020-02-11 11:33:41,601 DEBUG Cipher agreed: aes128-ctr
+2020-02-11 11:33:41,601 DEBUG MAC agreed: hmac-sha2-256
+2020-02-11 11:33:41,601 DEBUG Compression agreed: none
+2020-02-11 11:33:41,616 DEBUG kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2020-02-11 11:33:41,616 DEBUG Switch to new keys ...
+2020-02-11 11:33:41,616 DEBUG Adding ssh-ed25519 host key for 172.16.25.18: b'e35b41c691265a02c722b34447dd2c54'
+2020-02-11 11:33:41,663 DEBUG userauth is OK
+2020-02-11 11:33:41,710 INFO Authentication (password) successful!
+2020-02-11 11:33:41,710 DEBUG Successfully connected to node 
+2020-02-11 11:33:41,710 DEBUG [chan 0] Max packet in: 32768 bytes
+2020-02-11 11:33:41,851 DEBUG Received global request "hostkeys-00@openssh.com"
+2020-02-11 11:33:41,851 DEBUG Rejecting "hostkeys-00@openssh.com" global request from server.
+2020-02-11 11:33:41,913 DEBUG [chan 0] Max packet out: 32768 bytes
+2020-02-11 11:33:41,913 DEBUG Secsh channel 0 opened.
+2020-02-11 11:33:41,913 DEBUG [chan 0] Sesch channel 0 request ok
+2020-02-11 11:33:41,960 DEBUG b''
+2020-02-11 11:33:41,960 DEBUG [chan 0] EOF received (0)
+2020-02-11 11:33:41,960 DEBUG b'Could Not Find C:\\Users\\Administrator\\Desktop\\NBIFver2\\NbifStatusLoadTest\\SIM_machine2.csv\r\n'
+2020-02-11 11:33:41,960 DEBUG [chan 0] EOF sent (0)
+2020-02-11 11:33:42,007 DEBUG Closing the connection for 172.16.25.18
+2020-02-11 11:33:42,007 DEBUG EOF in transport thread
+2020-02-11 11:33:42,070 DEBUG starting thread (client mode): 0x431cf50
+2020-02-11 11:33:42,070 DEBUG Local version/idstring: SSH-2.0-paramiko_2.5.0
+2020-02-11 11:33:42,273 DEBUG Remote version/idstring: SSH-2.0-OpenSSH_for_Windows_7.7
+2020-02-11 11:33:42,273 INFO Connected (version 2.0, client OpenSSH_for_Windows_7.7)
+2020-02-11 11:33:42,382 DEBUG kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2020-02-11 11:33:42,382 DEBUG Kex agreed: curve25519-sha256@libssh.org
+2020-02-11 11:33:42,382 DEBUG HostKey agreed: ssh-ed25519
+2020-02-11 11:33:42,382 DEBUG Cipher agreed: aes128-ctr
+2020-02-11 11:33:42,382 DEBUG MAC agreed: hmac-sha2-256
+2020-02-11 11:33:42,382 DEBUG Compression agreed: none
+2020-02-11 11:33:42,413 DEBUG kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2020-02-11 11:33:42,413 DEBUG Switch to new keys ...
+2020-02-11 11:33:42,413 DEBUG Adding ssh-ed25519 host key for 172.16.25.18: b'e35b41c691265a02c722b34447dd2c54'
+2020-02-11 11:33:42,460 DEBUG userauth is OK
+2020-02-11 11:33:42,570 INFO Authentication (password) successful!
+2020-02-11 11:33:42,570 DEBUG Successfully connected to node 
+2020-02-11 11:33:42,570 DEBUG [chan 0] Max packet in: 32768 bytes
+2020-02-11 11:33:42,741 DEBUG Received global request "hostkeys-00@openssh.com"
+2020-02-11 11:33:42,741 DEBUG Rejecting "hostkeys-00@openssh.com" global request from server.
+2020-02-11 11:33:42,804 DEBUG [chan 0] Max packet out: 32768 bytes
+2020-02-11 11:33:42,804 DEBUG Secsh channel 0 opened.
+2020-02-11 11:33:42,820 DEBUG [chan 0] Sesch channel 0 request ok
+2020-02-11 11:33:42,866 DEBUG b''
+2020-02-11 11:33:42,866 DEBUG [chan 0] EOF received (0)
+2020-02-11 11:33:42,866 DEBUG b'Could Not Find C:\\Users\\Administrator\\Desktop\\NBIFver2\\NbifStatusLoadTest\\SIM_machine3.csv\r\n'
+2020-02-11 11:33:42,866 DEBUG [chan 0] EOF sent (0)
+2020-02-11 11:33:42,913 DEBUG Closing the connection for 172.16.25.18
+2020-02-11 11:33:42,913 DEBUG EOF in transport thread
+2020-02-11 11:33:42,945 DEBUG starting thread (client mode): 0x5298b70
+2020-02-11 11:33:42,945 DEBUG Local version/idstring: SSH-2.0-paramiko_2.5.0
+2020-02-11 11:33:43,163 DEBUG Remote version/idstring: SSH-2.0-OpenSSH_for_Windows_7.7
+2020-02-11 11:33:43,163 INFO Connected (version 2.0, client OpenSSH_for_Windows_7.7)
+2020-02-11 11:33:43,257 DEBUG kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2020-02-11 11:33:43,257 DEBUG Kex agreed: curve25519-sha256@libssh.org
+2020-02-11 11:33:43,257 DEBUG HostKey agreed: ssh-ed25519
+2020-02-11 11:33:43,257 DEBUG Cipher agreed: aes128-ctr
+2020-02-11 11:33:43,257 DEBUG MAC agreed: hmac-sha2-256
+2020-02-11 11:33:43,257 DEBUG Compression agreed: none
+2020-02-11 11:33:43,273 DEBUG kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2020-02-11 11:33:43,288 DEBUG Switch to new keys ...
+2020-02-11 11:33:43,288 DEBUG Adding ssh-ed25519 host key for 172.16.25.18: b'e35b41c691265a02c722b34447dd2c54'
+2020-02-11 11:33:43,351 DEBUG userauth is OK
+2020-02-11 11:33:43,429 INFO Authentication (password) successful!
+2020-02-11 11:33:43,429 DEBUG Successfully connected to node 
+2020-02-11 11:33:43,429 DEBUG [chan 0] Max packet in: 32768 bytes
+2020-02-11 11:33:43,648 DEBUG Received global request "hostkeys-00@openssh.com"
+2020-02-11 11:33:43,648 DEBUG Rejecting "hostkeys-00@openssh.com" global request from server.
+2020-02-11 11:33:43,710 DEBUG [chan 0] Max packet out: 32768 bytes
+2020-02-11 11:33:43,710 DEBUG Secsh channel 0 opened.
+2020-02-11 11:33:43,726 DEBUG [chan 0] Sesch channel 0 request ok
+2020-02-11 11:33:43,773 DEBUG b''
+2020-02-11 11:33:43,773 DEBUG b'Could Not Find C:\\Users\\Administrator\\Desktop\\NBIFver2\\NbifStatusLoadTest\\SIM_machine4.csv\r\n'
+2020-02-11 11:33:43,757 DEBUG [chan 0] EOF received (0)
+2020-02-11 11:33:43,773 DEBUG [chan 0] EOF sent (0)
+2020-02-11 11:33:43,835 DEBUG Closing the connection for 172.16.25.18
+2020-02-11 11:33:43,835 DEBUG EOF in transport thread
+2020-02-11 11:35:23,835 DEBUG starting thread (client mode): 0x52984f0
+2020-02-11 11:35:23,835 DEBUG Local version/idstring: SSH-2.0-paramiko_2.5.0
+2020-02-11 11:35:23,929 DEBUG Remote version/idstring: SSH-2.0-OpenSSH_for_Windows_7.7
+2020-02-11 11:35:23,929 INFO Connected (version 2.0, client OpenSSH_for_Windows_7.7)
+2020-02-11 11:35:23,992 DEBUG kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2020-02-11 11:35:23,992 DEBUG Kex agreed: curve25519-sha256@libssh.org
+2020-02-11 11:35:23,992 DEBUG HostKey agreed: ssh-ed25519
+2020-02-11 11:35:23,992 DEBUG Cipher agreed: aes128-ctr
+2020-02-11 11:35:23,992 DEBUG MAC agreed: hmac-sha2-256
+2020-02-11 11:35:23,992 DEBUG Compression agreed: none
+2020-02-11 11:35:24,007 DEBUG kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2020-02-11 11:35:24,007 DEBUG Switch to new keys ...
+2020-02-11 11:35:24,007 DEBUG Adding ssh-ed25519 host key for 172.16.25.18: b'e35b41c691265a02c722b34447dd2c54'
+2020-02-11 11:35:24,054 DEBUG userauth is OK
+2020-02-11 11:35:24,070 INFO Authentication (password) successful!
+2020-02-11 11:35:24,070 DEBUG [chan 0] Max packet in: 32768 bytes
+2020-02-11 11:35:24,273 DEBUG Received global request "hostkeys-00@openssh.com"
+2020-02-11 11:35:24,273 DEBUG Rejecting "hostkeys-00@openssh.com" global request from server.
+2020-02-11 11:35:24,320 DEBUG [chan 0] Max packet out: 32768 bytes
+2020-02-11 11:35:24,320 DEBUG Secsh channel 0 opened.
+2020-02-11 11:35:24,320 DEBUG [chan 0] Sesch channel 0 request ok
+2020-02-11 11:35:24,351 INFO [chan 0] Opened sftp connection (server version 3)
+2020-02-11 11:35:24,351 DEBUG [chan 0] stat(b'C:\\Users\\Administrator\\Desktop\\NBIFver2\\NbifStatusLoadTest\\SIM_machine1.csv')
+2020-02-11 11:35:24,351 DEBUG Closing the connection for 172.16.25.18
+2020-02-11 11:35:24,351 DEBUG starting thread (client mode): 0x5298ab0
+2020-02-11 11:35:24,351 DEBUG Local version/idstring: SSH-2.0-paramiko_2.5.0
+2020-02-11 11:35:24,507 DEBUG Remote version/idstring: SSH-2.0-OpenSSH_for_Windows_7.7
+2020-02-11 11:35:24,507 INFO Connected (version 2.0, client OpenSSH_for_Windows_7.7)
+2020-02-11 11:35:24,601 DEBUG kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2020-02-11 11:35:24,601 DEBUG Kex agreed: curve25519-sha256@libssh.org
+2020-02-11 11:35:24,601 DEBUG HostKey agreed: ssh-ed25519
+2020-02-11 11:35:24,601 DEBUG Cipher agreed: aes128-ctr
+2020-02-11 11:35:24,601 DEBUG MAC agreed: hmac-sha2-256
+2020-02-11 11:35:24,601 DEBUG Compression agreed: none
+2020-02-11 11:35:24,617 DEBUG kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2020-02-11 11:35:24,617 DEBUG Switch to new keys ...
+2020-02-11 11:35:24,617 DEBUG Adding ssh-ed25519 host key for 172.16.25.18: b'e35b41c691265a02c722b34447dd2c54'
+2020-02-11 11:35:24,664 DEBUG userauth is OK
+2020-02-11 11:35:24,695 INFO Authentication (password) successful!
+2020-02-11 11:35:24,695 DEBUG [chan 0] Max packet in: 32768 bytes
+2020-02-11 11:35:24,773 DEBUG Received global request "hostkeys-00@openssh.com"
+2020-02-11 11:35:24,773 DEBUG Rejecting "hostkeys-00@openssh.com" global request from server.
+2020-02-11 11:35:24,851 DEBUG [chan 0] Max packet out: 32768 bytes
+2020-02-11 11:35:24,851 DEBUG Secsh channel 0 opened.
+2020-02-11 11:35:24,851 DEBUG [chan 0] Sesch channel 0 request ok
+2020-02-11 11:35:24,867 INFO [chan 0] Opened sftp connection (server version 3)
+2020-02-11 11:35:24,882 DEBUG [chan 0] stat(b'C:\\Users\\Administrator\\Desktop\\NBIFver2\\NbifStatusLoadTest\\SIM_machine2.csv')
+2020-02-11 11:35:24,882 DEBUG Closing the connection for 172.16.25.18
+2020-02-11 11:35:24,882 DEBUG starting thread (client mode): 0x52a46f0
+2020-02-11 11:35:24,882 DEBUG Local version/idstring: SSH-2.0-paramiko_2.5.0
+2020-02-11 11:35:24,945 DEBUG Remote version/idstring: SSH-2.0-OpenSSH_for_Windows_7.7
+2020-02-11 11:35:24,945 INFO Connected (version 2.0, client OpenSSH_for_Windows_7.7)
+2020-02-11 11:35:24,992 DEBUG kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2020-02-11 11:35:24,992 DEBUG Kex agreed: curve25519-sha256@libssh.org
+2020-02-11 11:35:24,992 DEBUG HostKey agreed: ssh-ed25519
+2020-02-11 11:35:24,992 DEBUG Cipher agreed: aes128-ctr
+2020-02-11 11:35:24,992 DEBUG MAC agreed: hmac-sha2-256
+2020-02-11 11:35:24,992 DEBUG Compression agreed: none
+2020-02-11 11:35:25,007 DEBUG kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2020-02-11 11:35:25,007 DEBUG Switch to new keys ...
+2020-02-11 11:35:25,007 DEBUG Adding ssh-ed25519 host key for 172.16.25.18: b'e35b41c691265a02c722b34447dd2c54'
+2020-02-11 11:35:25,054 DEBUG userauth is OK
+2020-02-11 11:35:25,054 INFO Authentication (password) successful!
+2020-02-11 11:35:25,054 DEBUG [chan 0] Max packet in: 32768 bytes
+2020-02-11 11:35:25,210 DEBUG Received global request "hostkeys-00@openssh.com"
+2020-02-11 11:35:25,210 DEBUG Rejecting "hostkeys-00@openssh.com" global request from server.
+2020-02-11 11:35:25,273 DEBUG [chan 0] Max packet out: 32768 bytes
+2020-02-11 11:35:25,273 DEBUG Secsh channel 0 opened.
+2020-02-11 11:35:25,289 DEBUG [chan 0] Sesch channel 0 request ok
+2020-02-11 11:35:25,351 INFO [chan 0] Opened sftp connection (server version 3)
+2020-02-11 11:35:25,351 DEBUG [chan 0] stat(b'C:\\Users\\Administrator\\Desktop\\NBIFver2\\NbifStatusLoadTest\\SIM_machine3.csv')
+2020-02-11 11:35:25,382 DEBUG Closing the connection for 172.16.25.18
+2020-02-11 11:35:25,382 DEBUG starting thread (client mode): 0x52a4cf0
+2020-02-11 11:35:25,382 DEBUG Local version/idstring: SSH-2.0-paramiko_2.5.0
+2020-02-11 11:35:25,570 DEBUG Remote version/idstring: SSH-2.0-OpenSSH_for_Windows_7.7
+2020-02-11 11:35:25,570 INFO Connected (version 2.0, client OpenSSH_for_Windows_7.7)
+2020-02-11 11:35:25,632 DEBUG kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2020-02-11 11:35:25,632 DEBUG Kex agreed: curve25519-sha256@libssh.org
+2020-02-11 11:35:25,632 DEBUG HostKey agreed: ssh-ed25519
+2020-02-11 11:35:25,632 DEBUG Cipher agreed: aes128-ctr
+2020-02-11 11:35:25,632 DEBUG MAC agreed: hmac-sha2-256
+2020-02-11 11:35:25,632 DEBUG Compression agreed: none
+2020-02-11 11:35:25,648 DEBUG kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2020-02-11 11:35:25,664 DEBUG Switch to new keys ...
+2020-02-11 11:35:25,664 DEBUG Adding ssh-ed25519 host key for 172.16.25.18: b'e35b41c691265a02c722b34447dd2c54'
+2020-02-11 11:35:25,710 DEBUG userauth is OK
+2020-02-11 11:35:25,742 INFO Authentication (password) successful!
+2020-02-11 11:35:25,742 DEBUG [chan 0] Max packet in: 32768 bytes
+2020-02-11 11:35:25,835 DEBUG Received global request "hostkeys-00@openssh.com"
+2020-02-11 11:35:25,835 DEBUG Rejecting "hostkeys-00@openssh.com" global request from server.
+2020-02-11 11:35:25,882 DEBUG [chan 0] Max packet out: 32768 bytes
+2020-02-11 11:35:25,882 DEBUG Secsh channel 0 opened.
+2020-02-11 11:35:25,882 DEBUG [chan 0] Sesch channel 0 request ok
+2020-02-11 11:35:25,898 INFO [chan 0] Opened sftp connection (server version 3)
+2020-02-11 11:35:25,914 DEBUG [chan 0] stat(b'C:\\Users\\Administrator\\Desktop\\NBIFver2\\NbifStatusLoadTest\\SIM_machine4.csv')
+2020-02-11 11:35:25,914 DEBUG Closing the connection for 172.16.25.18
+2020-02-11 11:35:25,914 DEBUG EOF in transport thread
+2020-02-11 11:35:25,914 DEBUG EOF in transport thread
+2020-02-11 11:35:25,914 DEBUG EOF in transport thread
+2020-02-11 11:35:25,914 DEBUG EOF in transport thread
+2020-02-11 11:35:25,914 DEBUG EOF in transport thread
+2020-02-11 11:35:25,914 DEBUG EOF in transport thread

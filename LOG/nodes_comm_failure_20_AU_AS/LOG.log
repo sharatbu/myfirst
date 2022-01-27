@@ -1,0 +1,29 @@
+2020-02-11 18:03:07,467 INFO Nodes_Comm_Failure_20_AU_AS
+2020-02-11 18:03:07,467 INFO AirUnity
+2020-02-11 18:03:07,467 DEBUG Wait for 10 min to run
+2020-02-11 18:13:07,468 DEBUG 20% node offline making nodes offline
+2020-02-11 18:13:07,498 DEBUG Successfully connected to DB 10.23.1.131\MSSQLDB2
+2020-02-11 18:13:07,558 DEBUG Connection established with the server 172.16.25.29
+2020-02-11 18:13:07,608 DEBUG Process terminated successfully on the server
+2020-02-11 18:13:09,248 DEBUG Connection established with the server 172.16.25.30
+2020-02-11 18:13:09,328 DEBUG Process terminated successfully on the server
+2020-02-11 18:13:19,338 DEBUG Connection established with the server 172.16.25.30
+2020-02-11 18:13:19,388 DEBUG Process started successfully on the server :172.16.25.30 and process id :10280
+2020-02-11 18:13:19,398 DEBUG Successfully connected to DB 10.23.1.131\MSSQLDB2
+2020-02-11 18:13:29,418 DEBUG Successfully connected to DB 10.23.1.131\MSSQLDB2
+2020-02-11 18:13:39,418 DEBUG Successfully connected to DB 10.23.1.131\MSSQLDB2
+2020-02-11 18:13:49,428 DEBUG Successfully connected to DB 10.23.1.131\MSSQLDB2
+2020-02-11 18:13:59,428 DEBUG 20% node Online again making nodes Online
+2020-02-11 18:13:59,428 DEBUG Successfully connected to DB 10.23.1.131\MSSQLDB2
+2020-02-11 18:13:59,448 DEBUG Connection established with the server 172.16.25.29
+2020-02-11 18:13:59,498 DEBUG Process terminated successfully on the server
+2020-02-11 18:14:09,498 DEBUG Connection established with the server 172.16.25.29
+2020-02-11 18:14:09,548 DEBUG Process started successfully on the server :172.16.25.29 and process id :9416
+2020-02-11 18:14:09,558 DEBUG Connection established with the server 172.16.25.30
+2020-02-11 18:14:09,608 DEBUG Process terminated successfully on the server
+2020-02-11 18:14:19,608 DEBUG Connection established with the server 172.16.25.30
+2020-02-11 18:14:19,658 DEBUG Process started successfully on the server :172.16.25.30 and process id :8320
+2020-02-11 18:14:19,658 DEBUG Successfully connected to DB 10.23.1.131\MSSQLDB2
+2020-02-11 18:14:29,668 DEBUG Successfully connected to DB 10.23.1.131\MSSQLDB2
+2020-02-11 18:14:39,678 DEBUG Successfully connected to DB 10.23.1.131\MSSQLDB2
+2020-02-11 18:14:49,688 DEBUG Successfully connected to DB 10.23.1.131\MSSQLDB2

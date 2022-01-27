@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.7.2 on win32)" generated="20200113 12:32:00.464" rpa="false">
+<suite id="s1" name="Trap Gen" source="C:\Python_Scale_Automation\SCALE_AUTOMATION\SCRIPTS_ROBOT\Trap_Gen.robot">
+<test id="s1-t1" name="Test Case 1-Trap Generation">
+<kw name="Run Process" library="Process">
+<doc>Runs a process and waits for it to complete.</doc>
+<arguments>
+<arg>python</arg>
+<arg>C:\\Python_Scale_Automation\\SCALE_AUTOMATION\\SCRIPTS\\Trap_Gen.py</arg>
+<arg>stdout=${TEMPDIR}/stdout.txt</arg>
+<arg>stderr=${TEMPDIR}/stderr.txt</arg>
+</arguments>
+<assign>
+<var>${result}</var>
+</assign>
+<msg timestamp="20200113 12:32:00.534" level="INFO">Starting process:
+python C:\Python_Scale_Automation\SCALE_AUTOMATION\SCRIPTS\Trap_Gen.py</msg>
+<msg timestamp="20200113 12:32:00.544" level="INFO">Waiting for process to complete.</msg>
+<msg timestamp="20200113 12:32:01.514" level="INFO">Process completed.</msg>
+<msg timestamp="20200113 12:32:01.514" level="INFO">${result} = &lt;result object with rc 0&gt;</msg>
+<status status="PASS" starttime="20200113 12:32:00.534" endtime="20200113 12:32:01.514"></status>
+</kw>
+<kw name="Should Be Equal As Integers" library="BuiltIn">
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<arguments>
+<arg>${result.rc}</arg>
+<arg>0</arg>
+</arguments>
+<msg timestamp="20200113 12:32:01.514" level="INFO">Argument types are:
+&lt;class 'int'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" starttime="20200113 12:32:01.514" endtime="20200113 12:32:01.514"></status>
+</kw>
+<kw name="Should Not Contain" library="BuiltIn">
+<doc>Fails if ``container`` contains ``item`` one or more times.</doc>
+<arguments>
+<arg>${result.stdout}</arg>
+<arg>FAIL</arg>
+</arguments>
+<status status="PASS" starttime="20200113 12:32:01.514" endtime="20200113 12:32:01.524"></status>
+</kw>
+<status status="PASS" starttime="20200113 12:32:00.534" endtime="20200113 12:32:01.524" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200113 12:32:00.474" endtime="20200113 12:32:01.524"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Trap Gen">Trap Gen</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,12 @@
+2020-06-17 11:15:08,720 INFO Node_Deletion
+2020-06-17 11:15:08,720 DEBUG AirUnity
+2020-06-17 11:15:08,720 INFO AirUnity
+2020-06-17 11:15:08,720 DEBUG http://172.16.25.7/ws/nodeService
+2020-06-17 11:16:08,884 INFO Running job Every 1 day at 11:16:08 do db_query('172.16.25.30') (last run: [never], next run: 2020-06-17 11:16:08)
+2020-06-17 11:16:10,128 DEBUG Successfully connected to DB 10.23.1.131\MSSQLDB2
+2020-06-17 11:16:10,507 DEBUG Posting the request
+2020-06-17 11:16:10,507 DEBUG Starting new HTTP connection (1): 172.16.25.7:80
+2020-06-17 11:16:31,565 ERROR HTTPConnectionPool(host='172.16.25.7', port=80): Max retries exceeded with url: /ws/nodeService (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x04323230>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))
+2020-06-17 11:16:31,565 DEBUG Posting the request
+2020-06-17 11:16:31,568 DEBUG Starting new HTTP connection (1): 172.16.25.7:80
+2020-06-17 11:16:52,634 ERROR HTTPConnectionPool(host='172.16.25.7', port=80): Max retries exceeded with url: /ws/nodeService (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x04323690>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))

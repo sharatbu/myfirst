@@ -1,0 +1,28 @@
+2020-01-20 15:39:42,303 INFO nodes_comm_failure_20_iB2
+2020-01-20 15:39:42,304 INFO iBridge 2
+2020-01-20 15:39:42,304 DEBUG 20% node offline making nodes offline
+2020-01-20 15:39:42,339 DEBUG Successfully connected to DB 10.23.1.138\IBSQLDB
+2020-01-20 15:39:42,398 DEBUG Connection established with the server 172.16.25.18
+2020-01-20 15:39:42,452 DEBUG Process terminated successfully on the server
+2020-01-20 15:39:42,486 DEBUG Connection established with the server 172.16.25.19
+2020-01-20 15:39:42,540 DEBUG Process terminated successfully on the server
+2020-01-20 15:39:52,548 DEBUG Connection established with the server 172.16.25.19
+2020-01-20 15:39:52,593 DEBUG Process started successfully on the server :172.16.25.19 and process id :5392
+2020-01-20 15:39:52,607 DEBUG Successfully connected to DB 10.23.1.138\IBSQLDB
+2020-01-20 15:40:02,621 DEBUG Successfully connected to DB 10.23.1.138\IBSQLDB
+2020-01-20 15:40:12,641 DEBUG Successfully connected to DB 10.23.1.138\IBSQLDB
+2020-01-20 15:40:22,661 DEBUG Successfully connected to DB 10.23.1.138\IBSQLDB
+2020-01-20 15:40:32,668 DEBUG 20% node Online again making nodes Online
+2020-01-20 15:40:32,668 DEBUG Successfully connected to DB 10.23.1.138\IBSQLDB
+2020-01-20 15:40:32,695 DEBUG Connection established with the server 172.16.25.18
+2020-01-20 15:40:32,744 DEBUG Process terminated successfully on the server
+2020-01-20 15:40:42,753 DEBUG Connection established with the server 172.16.25.18
+2020-01-20 15:40:42,800 DEBUG Process started successfully on the server :172.16.25.18 and process id :1052
+2020-01-20 15:40:42,810 DEBUG Connection established with the server 172.16.25.19
+2020-01-20 15:40:42,860 DEBUG Process terminated successfully on the server
+2020-01-20 15:40:52,867 DEBUG Connection established with the server 172.16.25.19
+2020-01-20 15:40:52,917 DEBUG Process started successfully on the server :172.16.25.19 and process id :7812
+2020-01-20 15:40:52,917 DEBUG Successfully connected to DB 10.23.1.138\IBSQLDB
+2020-01-20 15:41:02,928 DEBUG Successfully connected to DB 10.23.1.138\IBSQLDB
+2020-01-20 15:41:12,939 DEBUG Successfully connected to DB 10.23.1.138\IBSQLDB
+2020-01-20 15:41:22,946 DEBUG Successfully connected to DB 10.23.1.138\IBSQLDB

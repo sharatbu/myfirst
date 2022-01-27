@@ -1,0 +1,5 @@
+2019-12-13 14:30:21,867 DEBUG AirUnity
+2019-12-13 14:30:21,868 INFO AirUnity
+2019-12-13 14:30:21,909 DEBUG Successfully connected to DB
+2019-12-13 14:30:21,966 INFO http://10.23.1.130/WS/16.5/Lte.asmx
+2019-12-13 14:30:21,971 DEBUG Starting new HTTP connection (1): 10.23.1.130:80

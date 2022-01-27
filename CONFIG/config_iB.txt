@@ -1,0 +1,48 @@
+netspan_ip=10.23.1.138
+db_server_name=10.23.1.138\IBSQLDB
+database_name=NETSPAN
+db_username=netspan
+db_password=qaz_1234
+nbif_username=wsadmin
+nbif_password=password
+netspan_api_version=17.0
+hardware_category=iBridge 2
+Sf_Server_Ip=172.16.25.7
+Sf_Server_Username=test
+Sf_Server_Password=Pass_123
+Node_Delete_Server_Ip=172.16.25.24
+AirUnity/Airstrand Profiles:
+SystemDefaultProfile=SR16.5v11 AirUnity system defaults_1
+AdvancedConfigProfile=AU_Advanced_Slough_129.16.50.052_1
+SecurityProfile=AU_Security_129.16.50.052_1
+CellAdvancedConfigurationProfile=AU_Cell_Advanced_Slough_1
+RadioProfile=AU_Radio_39758_25_129.16.50.052_1
+SIM machines IP address:
+SIM_machine1=172.16.25.18
+SIM_machine2=172.16.25.19
+SIM_machine3=172.16.25.20
+SIM_machine4=172.16.25.23
+SIM_machine5=172.16.25.24
+SIM_machine6=172.16.25.25
+iB440 - Properties
+ConfigMode=OptimisedModeC
+Frequency=5835
+Bandwidth=20Mhz
+TxPower=8
+QosProfile_iB440=SR16.0 India 7 Queues Default
+iB2 -C5x - Properties
+WirelessEnabled=true
+AutoChannel=true
+MaximumChannelWidth=20
+ChannelMode=Cm1x
+AutoPowerMode=MaxPower
+BaseManagementProfile=SR17.0 iBridge C Default
+AlarmProfile=SR17.0 iBridge C Default
+QosProfile_iB2=SR17.0 iBridge C Default
+
+
+
+
+
+
+

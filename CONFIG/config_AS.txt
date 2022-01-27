@@ -1,0 +1,28 @@
+netspan_ip=10.23.1.167
+db_server_name=10.23.1.168\SQL2016
+database_name=NETSPAN
+db_username=netspan
+db_password=qaz_123
+nbif_username=wsadmin
+nbif_password=password
+netspan_api_version=17.0
+SIM_machine1=172.16.25.29
+hardware_category=AirSpeed
+Sf_Server_Ip=172.16.25.7
+Sf_Server_Username=test
+Sf_Server_Password=Pass_123
+Node_Delete_Server_Ip=172.16.25.31
+AirUnity/Airstrand Profiles:
+SystemDefaultProfile=SR17.0v10 AirSpeed system defaults_1
+AdvancedConfigProfile=AS_eNB_Advanced_Slough_1
+SecurityProfile=AS_eNB_Security_Slough_1
+CellAdvancedConfigurationProfile=AS_eNB_Cell_Advanced_Slough_1
+RadioProfile=AS_eNB_Radio_39758_1
+SIM machines IP address:
+SIM_machine1=172.16.25.52
+SIM_machine2=172.16.25.53
+SIM_machine3=172.16.25.54
+SIM_machine4=172.16.25.55
+SIM_machine5=172.16.25.56
+SIM_machine6=172.16.25.57
+

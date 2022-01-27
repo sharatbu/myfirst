@@ -1,0 +1,52 @@
+JMeter Script Execution:  
+Start Date and time: 2020-02-06 12:21:25
+JMeter Script Execution:  
+Start Date and time: 2020-02-06 12:26:50
+JMeter Script Execution:  
+Start Date and time: 2020-02-06 12:40:24
+timeStamp,elapsed,label
+JMeter Script Execution:  
+Start Date and time: 2020-02-06 12:44:08
+timeStamp,elapsed,label
+1580973008406,10001,http://10.23.1.130/NetspanCommon/Content/jquery-ui-1.12.1.custom.min.css?v=5.16.50.074
+1580973008407,2123232,http://10.23.1.130/NetspanCommon/Content/jquery-ui-1.12.1.override.min.css?v=5.16.50.074
+1580973171113,13771,http://10.23.1.130/Netspan/Mvc.aspx/NodeList/GetList
+1580973170984,13845,nodelist
+JMeter Script Execution:  
+Start Date and time: 2020-02-06 12:46:07
+JMeter Script Execution:  
+End Date and time: 2020-02-06 12:46:07
+timeStamp,elapsed,label
+1580973008406,10001,http://10.23.1.130/NetspanCommon/Content/jquery-ui-1.12.1.custom.min.css?v=5.16.50.074
+1580973008407,2123232,http://10.23.1.130/NetspanCommon/Content/jquery-ui-1.12.1.override.min.css?v=5.16.50.074
+1580973171113,13771,http://10.23.1.130/Netspan/Mvc.aspx/NodeList/GetList
+1580973170984,13845,nodelist
+JMeter Script Execution:  
+Start Date and time: 2020-02-06 12:48:36
+JMeter Script Execution:  
+End Date and time: 2020-02-06 12:48:36
+timeStamp,elapsed,label
+JMeter Script Execution:  
+Start Date and time: 2020-02-06 12:50:17
+JMeter Script Execution:  
+End Date and time: 2020-02-06 12:53:41
+timeStamp,elapsed,label
+1580973637440,13548,http://10.23.1.130/Netspan/Mvc.aspx/NodeList/GetList
+1580973637293,13642,nodelist
+1580973772001,19227,http://10.23.1.130/Netspan/Mvc.aspx/NodeList/GetList
+1580973771858,19314,nodelist
+JMeter Script Execution:  
+Start Date and time: 2020-02-06 14:38:44
+JMeter Script Execution:  
+Start Date and time: 2020-02-06 14:40:49
+JMeter Script Execution:  
+End Date and time: 2020-02-06 14:40:49
+ Requests average respone time more than 10 sec
+JMeter Script Execution:  
+Start Date and time: 2020-02-06 14:41:43
+JMeter Script Execution:  
+End Date and time: 2020-02-06 14:45:07
+ Requests average respone time more than 10 sec
+timeStamp,elapsed,label
+1580980452754,13619,http://10.23.1.130/Netspan/Mvc.aspx/NodeList/GetList
+1580980452631,13688,nodelist

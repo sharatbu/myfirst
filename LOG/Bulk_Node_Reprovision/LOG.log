@@ -1,0 +1,7 @@
+2019-12-05 17:37:35,525 INFO Bulk_Node_Reprovision
+2019-12-05 17:37:35,572 DEBUG AirUnity
+2019-12-05 17:37:35,572 INFO AirUnity
+2019-12-05 17:37:35,572 DEBUG http://10.23.1.130/WS/16.5/Inventory.asmx
+2019-12-05 17:37:36,352 DEBUG Successfully connected to DB 10.23.1.131\MSSQLDB2
+2019-12-05 17:37:36,352 DEBUG Posting the request
+2019-12-05 17:37:36,384 DEBUG Starting new HTTP connection (1): 10.23.1.130:80
