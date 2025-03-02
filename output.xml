@@ -1,23 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.2.2 (Python 3.11.4 on win32)" generated="2025-03-02T13:53:34.817890" rpa="false" schemaversion="5">
+<robot generator="Robot 7.2.2 (Python 3.11.4 on win32)" generated="2025-03-02T14:54:42.320952" rpa="false" schemaversion="5">
 <suite id="s1" name="Test" source="C:\Users\supadhyaya\PycharmProjects\ROBOTFRAMEWORK\ROBOTFILES\test.robot">
 <test id="s1-t1" name="TEST" line="6">
 <kw name="Log" owner="BuiltIn">
-<msg time="2025-03-02T13:53:34.846634" level="INFO">This is my test case</msg>
+<msg time="2025-03-02T14:54:42.348700" level="INFO">This is my test case</msg>
 <arg>This is my test case</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-03-02T13:53:34.846634" elapsed="0.000000"/>
+<status status="PASS" start="2025-03-02T14:54:42.348700" elapsed="0.000000"/>
 </kw>
 <kw name="Count Items In Directory" owner="OperatingSystem">
-<msg time="2025-03-02T13:53:34.846634" level="INFO" html="true">Listing contents of directory '&lt;a href="file://C:\Temp"&gt;C:\Temp&lt;/a&gt;'.</msg>
-<msg time="2025-03-02T13:53:34.846634" level="INFO">28 items.</msg>
+<msg time="2025-03-02T14:54:42.348700" level="INFO" html="true">Listing contents of directory '&lt;a href="file://C:\Temp"&gt;C:\Temp&lt;/a&gt;'.</msg>
+<msg time="2025-03-02T14:54:42.348700" level="INFO">28 items.</msg>
 <arg>C:\\Temp</arg>
 <doc>Returns and logs the number of all items in the given directory.</doc>
-<status status="PASS" start="2025-03-02T13:53:34.846634" elapsed="0.000000"/>
+<status status="PASS" start="2025-03-02T14:54:42.348700" elapsed="0.000000"/>
 </kw>
-<status status="PASS" start="2025-03-02T13:53:34.846634" elapsed="0.000000"/>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-02T14:54:42.348700" level="INFO">i have no idea</msg>
+<arg>i have no idea</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-02T14:54:42.348700" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2025-03-02T14:54:42.348700" elapsed="0.000000"/>
 </test>
-<status status="PASS" start="2025-03-02T13:53:34.818899" elapsed="0.027735"/>
+<status status="PASS" start="2025-03-02T14:54:42.321962" elapsed="0.026738"/>
 </suite>
 <statistics>
 <total>

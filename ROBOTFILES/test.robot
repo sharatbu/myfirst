@@ -7,3 +7,4 @@ TEST
 
     Log    This is my test case
     Count Items In Directory    C:\\Temp
+    Log     i have no idea
